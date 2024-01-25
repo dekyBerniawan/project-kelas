@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="navbar bg-light border-bottom border-success border-2 shadow fixed-top">
+    <nav className="navbar bg-light border-bottom border-success border-2 shadow">
+      {/* <nav className="navbar bg-light border-bottom border-success border-2 shadow fixed-top"> */}
       <div className="container-fluid">
-        <a href="#" className="navbar-brand fw-bolder text-success">
+        <a href="/" className="navbar-brand fw-bolder text-success">
           Kelas Food
         </a>
         <ul className="nav">

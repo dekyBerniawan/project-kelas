@@ -27,7 +27,9 @@ export default function Home() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque?
               </p>
               <div className="mt-3">
-                <button className="btn btn-success rounded-4">Order Now</button>
+                <button className="btn btn-success rounded-4 me-3">
+                  Order Now
+                </button>
                 <button className="btn btn-secondary rounded-4">
                   Contact Us
                 </button>
